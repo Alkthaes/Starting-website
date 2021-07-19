@@ -535,6 +535,8 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    height: 270px;
+    width: 270px;
 }
 
 a[data-lightbox]:hover::before {
@@ -681,6 +683,19 @@ p {
     font-size: 12px;
 }
 
+.heading {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.lg-par {
+    font-size: 22px;
+}
+
+.italic {
+    font-style: italic;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -742,6 +757,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    height: 270px;
+    width: 270px;
 }
 
 .portfolio-row {
@@ -811,7 +828,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("images/dots-bg.jpg");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
